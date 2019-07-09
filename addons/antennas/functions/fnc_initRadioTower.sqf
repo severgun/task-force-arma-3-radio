@@ -4,11 +4,11 @@
   Name: TFAR_antennas_fnc_initRadioTower
 
   Author: Dedmen
-    Initializes a Radio Tower
+    Initializes a Radio Tower.
 
   Arguments:
-    0: the tower <OBJECT>
-    1: the Transmitting Range of the Tower <SCALAR>
+    0: The tower <OBJECT>
+    1: The Transmitting Range of the Tower <SCALAR>
 
   Return Value:
     None

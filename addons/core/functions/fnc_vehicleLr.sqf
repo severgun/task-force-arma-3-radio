@@ -4,11 +4,11 @@
   Name: TFAR_fnc_vehicleLR
 
   Author: NKey
-    Gets the LR radio of the vehicle and the settings for it depending on the player's position within the vehicle
-    returns nil, if no Vehicle radio was found
+    Gets the LR radio of the vehicle and the settings for it depending on the player's position within the vehicle.
+    Returns nil, if no Vehicle radio was found.
 
   Arguments:
-    0: unit <OBJECT>
+    0: Unit <OBJECT>
 
   Return Value:
     0: Vehicle <OBJECT>

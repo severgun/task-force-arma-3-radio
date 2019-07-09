@@ -4,13 +4,13 @@
   Name: TFAR_fnc_haveProgrammator
 
   Author: NKey, Garth de Wet (L-H)
-    Returns whether the player has a programmer
+    Returns whether the player has a programmer.
 
   Arguments:
     None
 
   Return Value:
-    has a programmer <BOOL>
+    Has a programmer <BOOL>
 
   Example:
     _hasProgrammer = call TFAR_fnc_haveProgrammator;

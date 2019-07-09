@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    current unit <OBJECT>
+    Current unit <OBJECT>
 
   Example:
     call TFAR_fnc_currentUnit;

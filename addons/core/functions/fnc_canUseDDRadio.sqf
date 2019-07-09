@@ -11,7 +11,7 @@
     1: Isolated and inside <BOOL>
 
   Return Value:
-    radio can be used <BOOL>
+    Radio can be used <BOOL>
 
   Example:
     _canUseDD = [-12,true] call TFAR_fnc_canUseDDRadio;

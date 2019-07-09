@@ -4,7 +4,7 @@
   Name: TFAR_fnc_currentLRFrequency
 
   Author: NKey
-    Returns current Frequency of the active LR Radio
+    Returns current Frequency of the active LR Radio.
 
   Arguments:
     None

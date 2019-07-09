@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    is enabled <BOOL>
+    Is enabled <BOOL>
 
   Example:
     call TFAR_fnc_isTeamSpeakPluginEnabled;

@@ -17,7 +17,7 @@
   Example:
     // LR radio
     [_this select 1, true] call TFAR_fnc_setChannelViaDialog;
-    // SW radio
+    // SR radio
     [_this select 1, false] call TFAR_fnc_setChannelViaDialog;
 
   Public: Yes

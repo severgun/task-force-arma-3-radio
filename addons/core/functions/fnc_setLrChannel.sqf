@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setLrChannel
 
   Author: NKey
-    Sets the radio to the passed channel
+    Sets the radio to the passed channel.
 
   Arguments:
     0: LR Radio <ARRAY>

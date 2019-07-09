@@ -7,7 +7,7 @@
     Calculates the terrain interception between the player and the passed unit.
 
   Arguments:
-    0: Unit to calculate terrain interception with. <OBJECT>
+    0: Unit to calculate terrain interception with <OBJECT>
 
   Return Value:
     Terrain Interception <SCALAR>

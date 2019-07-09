@@ -4,13 +4,13 @@
   Name: TFAR_fnc_hasRadio
 
   Author: Dorbedo
-    Check if a unit has a radio
+    Check if a unit has a radio.
 
   Arguments:
-    0: the unit <OBJECT>
+    0: The unit <OBJECT>
 
   Return Value:
-    the unit has a radio <BOOL>
+    The unit has a radio <BOOL>
 
   Example:
     _hasRadio = [_player] call TFAR_fnc_hasRadio;

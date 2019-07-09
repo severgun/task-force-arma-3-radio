@@ -7,10 +7,10 @@
     Returns current direction of Units head.
 
   Arguments:
-    0: unit to get the Head direction from. <UNIT> (default: TFAR_currentUnit)
+    0: Unit to get the Head direction from. <UNIT> (default: TFAR_currentUnit)
 
   Return Value:
-    current look direction in Normalized 3D Vector <ARRAY>
+    Current look direction in Normalized 3D Vector <ARRAY>
 
   Example:
     TFAR_currentUnit call TFAR_fnc_currentDirection;

@@ -4,11 +4,11 @@
   Name: TFAR_fnc_setLrStereo
 
   Author: NKey
-    Sets the stereo setting for the passed radio
+    Sets the stereo setting for the passed radio.
 
   Arguments:
     0: LR Radio <ARRAY>
-    1:  Stereo setting  Range (0,2) (0 - Both, 1 - Left, 2 - Right) <NUMBER>
+    1: Stereo setting  Range (0,2) (0 - Both, 1 - Left, 2 - Right) <NUMBER>
 
   Return Value:
     None

@@ -5,13 +5,13 @@
 
   Author: NKey
     Returns the side of the vehicle, based on the vehicle model and not who has captured it.
-    Also takes into account a variable on the vehicle (tf_side)
+    Also takes into account a variable on the vehicle. (tf_side)
 
   Arguments:
-    0: vehicle <OBJECT>
+    0: Vehicle <OBJECT>
 
   Return Value:
-    side of vehicle <SIDE>
+    Side of vehicle <SIDE>
 
   Example:
     _vehicleSide = (vehicle player) call TFAR_fnc_getVehicleSide;

@@ -4,11 +4,11 @@
   Name: TFAR_fnc_removeEventHandler
 
   Author: Garth de Wet (L-H), Dedmen
-    removes an eventhandler
+    Removes an eventhandler.
 
   Arguments:
-    0: custom event ID <STRING>
-    1: event ID <STRING>
+    0: Custom event ID <STRING>
+    1: Event ID <STRING>
 
   Return Value:
     None

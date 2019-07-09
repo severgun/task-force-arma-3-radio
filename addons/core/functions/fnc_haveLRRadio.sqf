@@ -4,13 +4,13 @@
   Name: TFAR_fnc_haveLRRadio
 
   Author: NKey, Garth de Wet (L-H)
-    Returns whether the player has a LR radio
+    Returns whether the player has a LR radio.
 
   Arguments:
     None
 
   Return Value:
-    None
+    Has a LR <BOOL>
 
   Example:
     _hasLR = call TFAR_fnc_haveLRRadio;

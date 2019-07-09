@@ -4,13 +4,13 @@
   Name: TFAR_fnc_objectInterception
 
   Author: Dedmen
-    Returns the number of voice-blocking Objects between player and _unit
+    Returns the number of voice-blocking Objects between player and _unit.
 
   Arguments:
-    None
+    0: Remote unit <OBJECT>
 
   Return Value:
-    amount of objects between player and _unit <NUMBER>
+    Amount of objects between player and _unit <NUMBER>
 
   Example:
     _unit call TFAR_fnc_objectInterception;

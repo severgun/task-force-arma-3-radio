@@ -7,7 +7,7 @@
     Gets the frequency for the active channel.
 
   Arguments:
-    Radio classname <STRING>
+    0: Radio classname <STRING>
 
   Return Value:
     Frequency <NUMBER>

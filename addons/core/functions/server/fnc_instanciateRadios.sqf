@@ -4,14 +4,14 @@
   Name: TFAR_fnc_instanciateRadios
 
   Author: Dedmen, Dorbedo
-    Takes Radio classnames and returns instanciated classnames (With _ID appended)
+    Takes Radio classnames and returns instanciated classnames. (With _ID appended)
 
   Arguments:
     0: List of classnames of prototype radios <ARRAY>
     1: Unit that is requesting the Radios <OBJECT>
 
   Return Value:
-    classnames of instanciated radios <ARRAY>
+    Classnames of instanciated radios <ARRAY>
 
   Example:
     [["TFAR_anprc_152"], TFAR_currentUnit] call TFAR_fnc_instanciateRadios;

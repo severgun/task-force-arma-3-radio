@@ -4,13 +4,13 @@
   Name: TFAR_fnc_isSpeaking
 
   Author: Garth de Wet (L-H)
-    Check whether a unit is speaking
+    Check whether a unit is speaking.
 
   Arguments:
-    Unit <OBJECT>
+    0: Unit <OBJECT>
 
   Return Value:
-    the unit is speaking <BOOL>
+    The unit is speaking <BOOL>
 
   Example:
     if (player call TFAR_fnc_isSpeaking) then {

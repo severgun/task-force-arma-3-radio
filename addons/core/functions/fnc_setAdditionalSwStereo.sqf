@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setAdditionalSwStereo
 
   Author: NKey
-    Sets the stereo setting for additional channel the SW radio
+    Sets the stereo setting for additional channel the SR radio.
 
   Arguments:
     0: Radio <STRING>

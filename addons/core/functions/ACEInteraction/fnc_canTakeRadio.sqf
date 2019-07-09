@@ -4,7 +4,7 @@
   Name: TFAR_fnc_canTakeRadio
 
   Author: Dorbedo
-    Checks if a radio from the target unit can be taken
+    Checks if a radio from the target unit can be taken.
 
   Arguments:
     0: the unit who gets the radio <OBJECT>
@@ -12,7 +12,7 @@
     2: the radio to be taken <STRING|ARRAY>
 
   Return Value:
-    the radio can be taken <BOOL>
+    The radio can be taken <BOOL>
 
   Example:
     [_target, _player, "TFAR_anprc_152"] call TFAR_fnc_canTakeRadio;

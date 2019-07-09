@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getVehicleRadios
 
   Author: Jaffa
-    Gets a list of radios in the specified vehicle
+    Gets a list of radios in the specified vehicle.
 
   Arguments:
     0: Vehicle <OBJECT>
@@ -23,7 +23,7 @@ if !(params [["_vehicle",objNull,[objNull]]]) exitWith { ERROR_1("TFAR: Vehicle 
 if (isNull _vehicle || {!(_vehicle call TFAR_fnc_hasVehicleRadio)}) exitWith {[]};
 
 private _result = [[_vehicle, "gunner_radio_settings"], [_vehicle, "driver_radio_settings"], [_vehicle, "commander_radio_settings"], [_vehicle, "copilot_radio_setting"]];
-        
+
 private _turrets = [(typeOf _vehicle), "TFAR_AdditionalLR_Turret", []] call TFAR_fnc_getVehicleConfigProperty;
 {_result pushBack [_vehicle, format["turretUnit_%1_radio_setting", _forEachIndex]] } forEach _turrets;
 

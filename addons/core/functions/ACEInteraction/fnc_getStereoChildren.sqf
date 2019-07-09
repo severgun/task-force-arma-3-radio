@@ -7,11 +7,11 @@
     Used to provide an array of ace actions to be used as children actions in the interact menu.
 
   Arguments:
-    0: the unit <OBJECT>
-    1: the radio <STRING|ARRAY>
+    0: The unit <OBJECT>
+    1: The radio <STRING|ARRAY>
 
   Return Value:
-    children ACE actions <ARRAY>
+    Children ACE actions <ARRAY>
 
   Example:
     _grandchildren = [_player,_player,[_radio,0]] call TFAR_core_fnc_getStereoChildren;

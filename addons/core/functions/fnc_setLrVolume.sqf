@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setLrVolume
 
   Author: NKey
-    Sets the volume for the passed radio
+    Sets the volume for the passed radio.
 
   Arguments:
     0: LR Radio <ARRAY>

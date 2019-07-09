@@ -4,14 +4,14 @@
   Name: TFAR_fnc_setSwStereo
 
   Author: NKey
-    Sets the stereo setting for the SW radio
+    Sets the stereo setting for the SR radio.
 
   Arguments:
     0: Radio <STRING>
     1: Stereo Range (0,2) (0 - Both, 1 - Left, 2 - Right) <NUMBER>
 
   Return Value:
-    return name <TYPENAME>
+    Return name <TYPENAME>
 
   Example:
     [call TFAR_fnc_activeSWRadio, 2] call TFAR_fnc_setSwStereo;

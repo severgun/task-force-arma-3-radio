@@ -4,13 +4,13 @@
   Name: TFAR_fnc_haveSWRadio
 
   Author: NKey, Garth de Wet (L-H)
-    Returns whether the player has a SR radio
+    Returns whether the player has a SR radio.
 
   Arguments:
     None
 
   Return Value:
-    has SR <BOOL>
+    Has SR <BOOL>
 
   Example:
     _hasSW = call TFAR_fnc_haveSWRadio;

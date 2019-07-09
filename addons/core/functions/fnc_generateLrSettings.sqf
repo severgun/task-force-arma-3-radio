@@ -4,13 +4,13 @@
   Name: TFAR_fnc_generateLrSettings
 
   Author: NKey, Garth de Wet (L-H)
-    Generates settings for the LR radio
+    Generates settings for the LR radio.
 
   Arguments:
-    0: false to generate settings without generating frequencies. <BOOL> (default: true)
+    0: False to generate settings without generating frequencies <BOOL> (default: true)
 
   Return Value:
-    0: active channel <NUMBER>
+    0: Active channel <NUMBER>
     1: Volume <NUMBER>
     2: Frequencies for channels <ARRAY>
     3: Stereo setting <NUMBER>
@@ -19,7 +19,7 @@
     6: Additional active channel stereo mode <NUMBER>
     7: Empty <NIL>
     8: Speaker mode <NUMBER>
-    9: turned on <BOOL>
+    9: Turned on <BOOL>
 
   Example:
     _settings = call TFAR_fnc_generateLrSettings;

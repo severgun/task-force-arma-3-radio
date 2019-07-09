@@ -18,13 +18,13 @@
   Public: No
 */
 
-params ["_sw_channel_number"];
+params ["_sr_channel_number"];
 
 private _result = false;
 
 if ((call TFAR_fnc_haveSWRadio) and {alive TFAR_currentUnit}) then {
     private _radio = call TFAR_fnc_activeSwRadio;
-    [_radio, _sw_channel_number] call TFAR_fnc_setSwChannel;
+    [_radio, _sr_channel_number] call TFAR_fnc_setSwChannel;
     playSound "TFAR_rotatorPush";
     if (TFAR_showChannelChangedHint) then {[_radio, false] call TFAR_fnc_showRadioInfo;};
     if (dialog) then {

@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    has a DD <BOOL>
+    Has a DD <BOOL>
 
   Example:
     _hasDD = call TFAR_fnc_haveDDRadio;

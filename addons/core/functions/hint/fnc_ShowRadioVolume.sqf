@@ -4,7 +4,7 @@
   Name: TFAR_fnc_ShowRadioVolume
 
   Author: Garth de Wet (L-H)
-    shows the radio volume
+    Shows the radio volume.
 
   Arguments:
     0: Radio <OBJECT|STRING>
@@ -15,7 +15,7 @@
   Example:
     // LR radio
     [(call TFAR_fnc_activeLrRadio)] call TFAR_fnc_showRadioVolume;
-    // SW radio
+    // SR radio
     [(call TFAR_fnc_activeSwRadio)] call TFAR_fnc_showRadioVolume;
 
   Public: Yes

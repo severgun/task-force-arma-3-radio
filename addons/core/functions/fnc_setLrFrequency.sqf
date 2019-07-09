@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setLrFrequency
 
   Author: NKey
-    set the LR frequency
+    Set the LR frequency.
 
   Arguments:
     0: LR Radio <ARRAY>

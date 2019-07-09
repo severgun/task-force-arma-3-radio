@@ -4,7 +4,7 @@
   Name: TFAR_static_radios_fnc_instanciatedRadio
 
   Author: Dedmen
-    Instanciates Radio if it isn't already
+    Instanciates Radio if it isn't already.
 
   Arguments:
     0: The weaponholder containing the Radio <OBJECT>

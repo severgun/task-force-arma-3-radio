@@ -4,11 +4,11 @@
   Name: TFAR_fnc_OnRadioReceive
 
   Author: Dorbedo
-    Event called upon receving a radio call
+    Event called upon receving a radio call.
 
   Arguments:
-    0: receving unit <OBJECT>
-    1: is receving <BOOL>
+    0: Receving unit <OBJECT>
+    1: Is receving <BOOL>
 
   Return Value:
     None

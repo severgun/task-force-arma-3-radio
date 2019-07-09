@@ -4,10 +4,10 @@
   Name: TFAR_fnc_setRadioOwner
 
   Author: Garth de Wet (L-H)
-    Sets the owner of a SW radio.
+    Sets the owner of a SR radio.
 
   Arguments:
-    0: radio classname <STRING>
+    0: Radio classname <STRING>
     1: UID of owner <STRING>
     2: Local only <BOOL>
 

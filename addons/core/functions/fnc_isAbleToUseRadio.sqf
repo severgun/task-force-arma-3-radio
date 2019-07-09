@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    is able to use <BOOL>
+    Is able to use <BOOL>
 
   Example:
     _ableToUseRadio = call TFAR_fnc_isAbleToUseRadio;

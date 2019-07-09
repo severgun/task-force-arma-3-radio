@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    active LR radio <ARRAY>
+    Active LR radio <ARRAY>
 
   Example:
     _radio = call TFAR_fnc_activeLRRadio;

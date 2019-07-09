@@ -4,7 +4,7 @@
   Name: TFAR_fnc_sendSpeakerRadios
 
   Author: Dedmen
-    sends infos about speakerradios to plugin
+    Sends infos about speakerradios to plugin.
 
   Arguments:
     None

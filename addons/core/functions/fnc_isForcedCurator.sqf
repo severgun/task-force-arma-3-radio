@@ -7,10 +7,10 @@
     Return if unit if forced curator.
 
   Arguments:
-    0: unit to check <OBJECT>
+    0: Unit to check <OBJECT>
 
   Return Value:
-    is unit forced curator <BOOL>
+    Is unit forced curator <BOOL>
 
   Example:
     player call TFAR_fnc_isForcedCurator;

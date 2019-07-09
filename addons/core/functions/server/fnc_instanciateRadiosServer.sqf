@@ -4,7 +4,7 @@
   Name: TFAR_fnc_instanciateRadios
 
   Author: Dorbedo
-    Replaces all prototype radios
+    Replaces all prototype radios.
 
   Arguments:
     None

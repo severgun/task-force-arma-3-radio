@@ -12,12 +12,12 @@
     4. Randomized frequencies
 
   Arguments:
-    0: is SR radio <BOOL> (Default: true)
-    1: the unit <OBJECT> (Default: TFAR_currentUnit)
-    2: the radiotype <STRING> (Default: "")
+    0: Is SR radio <BOOL> (Default: true)
+    1: The unit <OBJECT> (Default: TFAR_currentUnit)
+    2: The radiotype <STRING> (Default: "")
 
   Return Value:
-    default settings <TYPENAME>
+    Default settings <TYPENAME>
 
   Example:
     _SRSettings = true call TFAR_fnc_getDefaultRadioSettings;

@@ -4,7 +4,7 @@
   Name: TFAR_static_radios_fnc_moduleStaticRadio
 
   Author: Dedmen
-    Handles placing Static Radio for Zeus module
+    Handles placing Static Radio for Zeus module.
 
   Arguments:
     0: The control given by the EventHandler <CONTROL>

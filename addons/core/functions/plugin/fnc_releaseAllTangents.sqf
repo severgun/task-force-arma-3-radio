@@ -4,10 +4,10 @@
   Name: TFAR_fnc_releaseAllTangents
 
   Author: Dedmen
-    Stops all outgoing radio transmissions
+    Stops all outgoing radio transmissions.
 
   Arguments:
-    the player <OBJECT>
+    0: The player <OBJECT>
 
   Return Value:
     None

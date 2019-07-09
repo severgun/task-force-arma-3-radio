@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setSwSpeakers
 
   Author: NKey
-    Sets the speakers setting for the SW radio
+    Sets the speakers setting for the SR radio.
 
   Arguments:
     0: Radio <STRING>

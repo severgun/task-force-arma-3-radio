@@ -4,7 +4,7 @@
   Name: TFAR_backpacks_fnc_onButtonClick_Enter
 
   Author: Dorbedo
-    Button "Enter" was pressed
+    Button "Enter" was pressed.
 
   Arguments:
     0: Edit control or IDC <CONTROL/SCALAR>

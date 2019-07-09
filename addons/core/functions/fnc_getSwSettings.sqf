@@ -7,10 +7,10 @@
     Returns the current settings for the passed radio.
 
   Arguments:
-    Radio classname <STRING>
+    0: Radio classname <STRING>
 
   Return Value:
-    settings <ARRAY>
+    Settings <ARRAY>
 
   Example:
     (call TFAR_fnc_activeSwRadio) call TFAR_fnc_getSwSettings;

@@ -7,15 +7,15 @@
     Returns the default radio for the passed side.
 
   Arguments:
-    0: side <SIDE>
-    1: radio type : Range [0,2] (0 - LR, 1 - SW, 2 - Rifleman) <NUMBER>
+    0: Side <SIDE>
+    1: Radio type : Range [0,2] (0 - LR, 1 - SR, 2 - Rifleman) <NUMBER>
 
   Return Value:
     Default Radio <STRING|OBJECT>
 
   Example:
     _defaultLRRadio = [side player, 0] call TFAR_fnc_getSideRadio;
-    _defaultSWRadio = [side player, 1] call TFAR_fnc_getSideRadio;
+    _defaultSRRadio = [side player, 1] call TFAR_fnc_getSideRadio;
     _defaultRiflemanRadio = [side player, 2] call TFAR_fnc_getSideRadio;
 
   Public: Yes

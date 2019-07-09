@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getCurrentLrStereo
 
   Author: NKey
-    Gets the stereo of current channel (special logic for additional) setting of the passed radio
+    Gets the stereo of current channel (special logic for additional) setting of the passed radio.
 
   Arguments:
     0: Radio object <OBJECT>

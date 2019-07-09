@@ -7,13 +7,13 @@
     Return array of default radio classes for player.
 
   Arguments:
-    0: unit <OBJECT> (Default: TFAR_currentUnit)
+    0: Unit <OBJECT> (Default: TFAR_currentUnit)
 
   Return Value:
-    0: default LR <STRING>
-    1: defaultPersonal <STRING>
-    2: defaultRifleman <STRING>
-    3: defaultAirborne <STRING>
+    0: Default LR <STRING>
+    1: DefaultPersonal <STRING>
+    2: DefaultRifleman <STRING>
+    3: DefaultAirborne <STRING>
 
   Example:
     _classes = call TFAR_fnc_getDefaultRadioClasses;

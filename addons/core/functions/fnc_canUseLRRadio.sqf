@@ -13,7 +13,7 @@
     3: Eye height ASL <NUMBER>
 
   Return Value:
-    radio can be used <BOOL>
+    Radio can be used <BOOL>
 
   Example:
     _canUseSW = [player, false, false, 10] call TFAR_fnc_canUseLrRadio;

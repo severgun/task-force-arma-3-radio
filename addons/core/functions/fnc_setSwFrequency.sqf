@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setSwFrequency
 
   Author: NKey, Garth de Wet (L-H)
-    Sets the frequency for the currently active channel
+    Sets the frequency for the currently active channel.
 
   Arguments:
     0: Radio classname <STRING>

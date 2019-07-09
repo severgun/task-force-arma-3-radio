@@ -15,7 +15,7 @@
   Example:
     // LR radio - channel 1
     [(call TFAR_fnc_activeLrRadio), 1] call TFAR_fnc_getChannelFrequency;
-    // SW radio - channel 1
+    // SR radio - channel 1
     [(call TFAR_fnc_activeSwRadio), 1] call TFAR_fnc_getChannelFrequency;
 
   Public: Yes
@@ -26,7 +26,7 @@ params ["_radio", "_channel"];
 private _channel = _channel - 1;
 private _settings = nil;
 
-if (_radio isEqualType "") then {//SW radio is string
+if (_radio isEqualType "") then {//SR radio is string
     _settings = _radio call TFAR_fnc_getSwSettings;
 } else {//LR Radio is array
     _settings = _radio call TFAR_fnc_getLrSettings;

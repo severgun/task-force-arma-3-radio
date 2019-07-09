@@ -4,14 +4,14 @@
   Name: TFAR_core_fnc_getRadiosChildren
 
   Author: Dorbedo
-    adds the interaction children
+    Adds the interaction children.
 
   Arguments:
-    0: target <OBJECT>
-    1: calling player <OBJECT>
+    0: Target <OBJECT>
+    1: Calling player <OBJECT>
 
   Return Value:
-    children ace interaction <ARRAY>
+    Children ace interaction <ARRAY>
 
   Example:
     _children = [_target, _player] call TFAR_core_fnc_getRadiosChildren;

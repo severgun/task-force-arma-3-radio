@@ -4,7 +4,7 @@
   Name: TFAR_fnc_unableToUseHint
 
   Author: Garth de Wet (L-H)
-    shows the "unable to use" hint
+    Shows the "unable to use" hint.
 
   Arguments:
     None

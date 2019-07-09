@@ -3,13 +3,13 @@
   Name: TFAR_fnc_hasSettings
 
   Author: Dedmen
-    Returns whether settings for this Radio have been initialized
+    Returns whether settings for this Radio have been initialized.
 
   Arguments:
     0: Radio <ARRAY|STRING>
 
   Return Value:
-    settingsExist <bool>
+    SettingsExist <bool>
 
   Example:
     [(call TFAR_fnc_activeLrRadio)] call TFAR_fnc_hasSettings;

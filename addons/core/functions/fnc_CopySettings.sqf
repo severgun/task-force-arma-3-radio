@@ -16,7 +16,7 @@
   Example:
     // LR - LR
     [(call TFAR_fnc_activeLrRadio),[(vehicle player), "driver"]] call TFAR_fnc_copySettings;
-    // SW - SW
+    // SR - SR
     [(call TFAR_fnc_activeSwRadio),"TFAR_anprc148jem_20"] call TFAR_fnc_copySettings
 
   Public: Yes
@@ -24,7 +24,7 @@
 
 params ["_source", "_destination"];
 
-//LR radios are Arrays. SW are not
+//LR radios are Arrays. SR are not
 private _isDLR = (_destination isEqualType []);
 private _isSLR = (_source isEqualType []);
 

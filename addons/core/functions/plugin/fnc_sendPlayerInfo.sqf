@@ -4,7 +4,7 @@
   Name: TFAR_fnc_sendPlayerInfo
 
   Author: NKey
-    Notifies the plugin about a player
+    Notifies the plugin about a player.
 
   Arguments:
     0: Unit <OBJECT>

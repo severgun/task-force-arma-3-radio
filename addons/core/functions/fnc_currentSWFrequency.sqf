@@ -4,7 +4,7 @@
   Name: TFAR_fnc_currentSWFrequency
 
   Author: NKey
-    Returns current Frequency of the active SR Radio
+    Returns current Frequency of the active SR Radio.
 
   Arguments:
     None

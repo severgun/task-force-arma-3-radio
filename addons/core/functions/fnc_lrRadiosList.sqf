@@ -4,10 +4,10 @@
   Name: TFAR_fnc_lrRadiosList
 
   Author: NKey
-    List of all the players LR radios
+    List of all the players LR radios.
 
   Arguments:
-    unit <OBJECT>
+    0: Unit <OBJECT>
 
   Return Value:
     List of all the player's LR radios <ARRAY>
@@ -24,7 +24,7 @@ if (canSuspend) exitWith {
     _ret
 };
 
-private _backpackLR = (_this call TFAR_fnc_backpackLr); 
+private _backpackLR = (_this call TFAR_fnc_backpackLr);
 private _activeLR = missionNamespace getVariable ["TF_lr_active_radio", _backpackLR];
 private _overrideLR = missionNamespace getVariable "TFAR_OverrideActiveLRRadio";
 private _vehicleLR = _this call TFAR_fnc_vehicleLr;

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_swRadioMenu
 
   Author: NKey, Garth de Wet (L-H)
-    Returns a list of SW radios if more than one is on the player.
+    Returns a list of SR radios if more than one is on the player.
 
   Arguments:
     None

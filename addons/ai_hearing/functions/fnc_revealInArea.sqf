@@ -4,18 +4,18 @@
   Name: TFAR_fnc_revealInArea
 
   Author: Dimitri Yuri, 2600K, Dedmen, Dorbedo
-    Event called upon receving a radio call
+    Event called upon receving a radio call.
 
   Arguments:
-    0: unit to be revealed <OBJECT>
-    1: distance <OBJECT|ARRAY>
+    0: Unit to be revealed <OBJECT>
+    1: Distance <OBJECT|ARRAY>
 
   Return Value:
     None
-  
+
   Example:
     [_unit, 50] call TFAR_ai_hearing_fnc_revealInArea;
-  
+
   Public: Yes
 */
 

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getLrRadioProperty
 
   Author: Garth de Wet (L-H)
-    returns specified radio property
+    Returns specified radio property.
 
   Arguments:
     0: Backpack/vehicle <OBJECT>

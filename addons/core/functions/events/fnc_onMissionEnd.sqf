@@ -4,7 +4,7 @@
   Name: TFAR_fnc_onMissionEnd
 
   Author: Dedmen
-    Tells the Teamspeak plugin that we are not ingame anymore
+    Tells the Teamspeak plugin that we are not ingame anymore.
 
   Arguments:
     None

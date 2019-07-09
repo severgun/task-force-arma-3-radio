@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    version <STRING>
+    Version <STRING>
 
   Example:
     call TFAR_fnc_getTeamspeakPluginVersion;

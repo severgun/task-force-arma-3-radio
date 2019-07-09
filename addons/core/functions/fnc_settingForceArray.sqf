@@ -4,13 +4,13 @@
   Name: TFAR_fnc_settingForceArray
 
   Author: Dorbedo
-    Forces the input into an array format and removes invalid input
+    Forces the input into an array format and removes invalid input.
 
   Arguments:
-    0: frequencies input <STRING>
+    0: Frequencies input <STRING>
 
   Return Value:
-    cleaned input <STRING>
+    Cleaned input <STRING>
 
   Example:
     ["123 123 , 332 23"] call TFAR_fnc_settingForceArray;

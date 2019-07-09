@@ -4,11 +4,11 @@
   Name: TFAR_antennas_fnc_pluginAddRadioTower
 
   Author: Dedmen
-    Tells Teamspeak that there is a new Tower
+    Tells Teamspeak that there is a new Tower.
     Performancewise it's best to collect towers and pass multiple in one call.
 
   Arguments:
-    0: the Tower <OBJECT>
+    0: The Tower <OBJECT>
 
   Return Value:
     None

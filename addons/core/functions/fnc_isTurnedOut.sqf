@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-/* ----------------------------------------------------------------------------
+/*
   Name: TFAR_fnc_isTurnedOut
 
   Author:
@@ -10,7 +10,7 @@
     Checks whether a unit is attenuated, meaning in another compartment outside of outside voice range.
 
   Arguments:
-    _unit - Unit to check <OBJECT>
+    0: Unit - Unit to check <OBJECT>
 
   Return Value:
     [isTurnedOut, attenuation] <BOOL>
@@ -30,7 +30,7 @@
         animation for attenuated ("" for always NOT attenuated)
     Info
         variable overrides config
----------------------------------------------------------------------------- */
+*/
 params [["_unit", objNull, [objNull]]];
 
 // outside of the vehicle or turned out
@@ -40,7 +40,7 @@ if (isTurnedOut _unit) exitWith {[true, 2]};
 
 
 
-private _fnc_getAttenuationFromEffect = 
+private _fnc_getAttenuationFromEffect =
 [
     {
         [(typeOf _vehicle), "tf_isolatedAmount", 0.0] call TFAR_fnc_getVehicleConfigProperty
@@ -94,7 +94,7 @@ _attenuationAPI append (getArray (_config >> "CBA_attenuatedRoles"));
 if !(_attenuationAPI isEqualTo []) then {
     {
         _x params [["_configRole", "", [""]], ["_cargoOrTurretIndex", -1, [0]], ["_animation", "", [""]]];
-        
+
         if (_configRole == _role && {_cargoOrTurretIndex isEqualTo _cargoIndex || _cargoOrTurretIndex isEqualTo _turretPath}) exitWith {
             _return = if !(_animation isEqualTo "") then {
                 !((_vehicle animationSourcePhase _animation) > 0)

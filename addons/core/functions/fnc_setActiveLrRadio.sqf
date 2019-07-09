@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setActiveLrRadio
 
   Author: NKey
-    Sets the active LR radio to the passed radio
+    Sets the active LR radio to the passed radio.
 
   Arguments:
     0: Radio <OBJECT>

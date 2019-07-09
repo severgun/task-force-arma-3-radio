@@ -4,7 +4,7 @@
   Name: TFAR_fnc_sendPluginConfig
 
   Author: Dedmen
-    transmitts all pluginsettings to plugin
+    Transmitts all pluginsettings to plugin.
 
   Arguments:
     None

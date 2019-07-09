@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setVolumeViaDialog
 
   Author: Garth de Wet (L-H)
-    sets the volume of the current dialog radio.
+    Sets the volume of the current dialog radio.
 
   Arguments:
     0: Mouse button pressed (0,1) <NUMBER>
@@ -16,7 +16,7 @@
   Example:
     // LR radio
     [_this select 1, true] call TFAR_fnc_setVolumeViaDialog;
-    // SW radio
+    // SR radio
     [_this select 1, false] call TFAR_fnc_setVolumeViaDialog;
 
   Public: Yes

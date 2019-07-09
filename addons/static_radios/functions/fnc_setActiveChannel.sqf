@@ -4,11 +4,11 @@
   Name: TFAR_static_radios_fnc_setActiveChannel
 
   Author: Dedmen
-    sets the static radio's active channel
+    Sets the static radio's active channel.
 
   Arguments:
-    0: the weaponholder containing the radio <OBJECT>
-    1: selected channel <SCALAR>
+    0: The weaponholder containing the radio <OBJECT>
+    1: Selected channel <SCALAR>
 
   Return Value:
     None

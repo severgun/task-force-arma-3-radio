@@ -4,13 +4,13 @@
   Name: TFAR_fnc_getSwSpeakers
 
   Author: NKey
-    Gets the speakers setting of the passed radio
+    Gets the speakers setting of the passed radio.
 
   Arguments:
-    Radio classname <STRING>
+    0: Radio classname <STRING>
 
   Return Value:
-    speakers or headphones <BOOL>
+    Speakers or headphones <BOOL>
 
   Example:
     _stereo = (call TFAR_fnc_ActiveSwRadio) call TFAR_fnc_getSwSpeakers;

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setLrSpeakers
 
   Author: NKey
-    Sets the speakers setting for the passed radio
+    Sets the speakers setting for the passed radio.
 
   Arguments:
     0: Radio object <OBJECT>

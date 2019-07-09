@@ -4,10 +4,10 @@
    Name: TFAR_antennas_fnc_deleteRadioTower
 
    Author: Dedmen
-   De-initializes a Radio Tower
+   De-initializes a Radio Tower.
 
    Arguments:
-   0: the tower <OBJECT>
+   0: The tower <OBJECT>
 
    Return Value:
    None

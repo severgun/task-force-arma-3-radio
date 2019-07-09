@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setSwChannel
 
   Author: NKey
-    Sets the channel for the passed radio
+    Sets the channel for the passed radio.
 
   Arguments:
     0: Radio classname <STRING>

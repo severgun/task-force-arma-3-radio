@@ -4,11 +4,11 @@
   Name: TFAR_fnc_fireEventHandlers
 
   Author: Garth de Wet (L-H)
-    Fires all eventhandlers associated with the passed unit
+    Fires all eventhandlers associated with the passed unit.
 
   Arguments:
     0: ID for event <STRING>
-    1: parameters <ANY>
+    1: Parameters <ANY>
 
   Return Value:
     None

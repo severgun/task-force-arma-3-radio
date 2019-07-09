@@ -4,7 +4,7 @@
   Name: TFAR_fnc_updateSpeakVolumeUI
 
   Author: Dedmen
-    Updates UI speak volume indicator
+    Updates UI speak volume indicator.
 
   Arguments:
     None

@@ -4,11 +4,11 @@
   Name: TFAR_static_radios_fnc_setVolume
 
   Author: Dedmen
-    sets the static radio's volume
+    Sets the static radio's volume.
 
   Arguments:
-    0: the weaponholder containing the radio <OBJECT>
-    1: selected volume <SCALAR>
+    0: The weaponholder containing the radio. <OBJECT>
+    1: Selected volume. <SCALAR>
 
   Return Value:
     None

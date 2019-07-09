@@ -4,7 +4,7 @@
   Name: TFAR_fnc_inWaterHint
 
   Author: Garth de Wet (L-H)
-    shows the "in water" hint
+    Shows the "in water" hint.
 
   Arguments:
     None

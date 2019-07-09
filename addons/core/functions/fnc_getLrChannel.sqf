@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getLrChannel
 
   Author: NKey
-    Gets the channel for the passed radio
+    Gets the channel for the passed radio.
 
   Arguments:
     0: Radio object <OBJECT>

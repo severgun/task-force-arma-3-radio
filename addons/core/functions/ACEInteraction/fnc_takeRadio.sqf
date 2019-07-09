@@ -4,12 +4,12 @@
   Name: TFAR_fnc_takeRadio
 
   Author: Dorbedo
-    Removes the radio from the target unit and adds the radio to another unit
+    Removes the radio from the target unit and adds the radio to another unit.
 
   Arguments:
-    0: the unit who gets the radio <OBJECT>
-    1: the unit who loses the radio <OBJECT>
-    2: the radio to be taken <STRING|ARRAY>
+    0: The unit who gets the radio <OBJECT>
+    1: The unit who loses the radio <OBJECT>
+    2: The radio to be taken <STRING|ARRAY>
 
   Return Value:
     None

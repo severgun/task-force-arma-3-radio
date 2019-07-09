@@ -17,7 +17,7 @@
   Example:
     // LR radio - channel 1
     [(call TFAR_fnc_activeLrRadio), 1, "56.2"] call TFAR_fnc_setChannelFrequency;
-    // SW radio - channel 1
+    // SR radio - channel 1
     [(call TFAR_fnc_activeSwRadio), 1, "84.3"] call TFAR_fnc_setChannelFrequency;
 
   Public: Yes

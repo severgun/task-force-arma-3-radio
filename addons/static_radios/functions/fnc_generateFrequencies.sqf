@@ -4,7 +4,7 @@
   Name: TFAR_static_radios_fnc_generateFrequencies
 
   Author: Dedmen
-    Generates default frequencies for a static Radio
+    Generates default frequencies for a static Radio.
 
   Arguments:
     0: The weaponholder containing the Radio <OBJECT>

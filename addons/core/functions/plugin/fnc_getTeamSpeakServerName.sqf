@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    name of the server <STRING>
+    Name of the server <STRING>
 
   Example:
     call TFAR_fnc_getTeamSpeakServerName;

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setSwVolume
 
   Author: NKey
-    Sets the volume for the SW radio
+    Sets the volume for the SR radio.
 
   Arguments:
     0: Radio <STRING>

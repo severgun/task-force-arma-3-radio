@@ -4,13 +4,13 @@
   Name: TFAR_fnc_isLRRadio
 
   Author: Dedmen
-    Returns if a radio is a Longrange radio.
+    Returns if a radio is a long-range radio.
 
   Arguments:
     0: Radio classname <STRING>
 
   Return Value:
-    True if Longrange, false if handheld radio. <BOOL>
+    True if long-range, false if handheld radio. <BOOL>
 
   Example:
     "TFAR_anprc_152" call TFAR_fnc_isLRRadio;

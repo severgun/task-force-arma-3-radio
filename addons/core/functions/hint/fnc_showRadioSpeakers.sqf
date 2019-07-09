@@ -4,7 +4,7 @@
   Name: TFAR_fnc_showRadioSpeakers
 
   Author: Garth de Wet (L-H), Nkey
-    shows the speaker hint
+    Shows the speaker hint.
 
   Arguments:
     0: Radio <OBJECT|STRING>
@@ -15,7 +15,7 @@
   Example:
     // LR radio
     [(call TFAR_fnc_activeLrRadio)] call TFAR_fnc_showRadioSpeakers;
-    // SW radio
+    // SR radio
     [(call TFAR_fnc_activeSwRadio)] call TFAR_fnc_showRadioSpeakers;
 
   Public: Yes

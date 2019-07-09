@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getLrVolume
 
   Author: NKey
-    Gets the volume of the passed radio
+    Gets the volume of the passed radio.
 
   Arguments:
     0: Radio object <OBJECT>

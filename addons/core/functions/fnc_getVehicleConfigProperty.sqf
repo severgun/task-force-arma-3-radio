@@ -4,16 +4,16 @@
   Name: TFAR_fnc_getVehicleConfigProperty
 
   Author: NKey, Garth de Wet (L-H)
-    Gets a config property (getNumber/getText)
+    Gets a config property. (getNumber/getText)
     Only works for CfgVehicles.
 
   Arguments:
     0: Item classname <STRING>
-    1: property <STRING>
+    1: Property <STRING>
     2: Default Value <ANY> (default: "")
 
   Return Value:
-    value <NUMBER|TEXT|ARRAY>
+    Value <NUMBER|TEXT|ARRAY>
 
   Example:
     [_LRradio, "tf_hasLrRadio", 0] call TFAR_fnc_getVehicleConfigProperty;

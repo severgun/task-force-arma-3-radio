@@ -4,10 +4,10 @@
   Name: TFAR_fnc_setPersonalRadioFrequency
 
   Author: NKey
-    Sets the frequency for the active SW radio to passed frequency
+    Sets the frequency for the active SR radio to passed frequency.
 
   Arguments:
-    Frequency <STRING>
+    0: Frequency <STRING>
 
   Return Value:
     None

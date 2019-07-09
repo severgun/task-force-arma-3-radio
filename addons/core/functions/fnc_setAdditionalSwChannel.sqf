@@ -14,7 +14,7 @@
     None
 
   Example:
-    // SW Radio - Channel 2
+    // SR Radio - Channel 2
     [(call TFAR_fnc_activeSwRadio), 1] call TFAR_fnc_setAdditionalSwChannel;
 
   Public: Yes

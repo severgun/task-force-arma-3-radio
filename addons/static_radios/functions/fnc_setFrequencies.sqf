@@ -4,10 +4,10 @@
   Name: TFAR_static_radios_fnc_setFrequencies
 
   Author: Dedmen
-    takes radio classnames and returns instanciated classnames (with _ID appended)
+    Takes radio classnames and returns instanciated classnames. (with _ID appended)
 
   Arguments:
-    0: the weaponholder containing the radio <OBJECT>
+    0: The weaponholder containing the radio <OBJECT>
     1: 9 channels of frequencies <ARRAY>
 
   Return Value:

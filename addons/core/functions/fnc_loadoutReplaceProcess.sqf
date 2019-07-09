@@ -4,7 +4,7 @@
   Name: TFAR_fnc_loadoutReplaceProcess
 
   Author: zgmrvn
-    iterates through player's loadouts and replaces actual radios with prototypes
+    Iterates through player's loadouts and replaces actual radios with prototypes.
 
   Arguments:
     None

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_backpackLr
 
   Author: NKey
-    Returns the backpack radio (if there is one)
+    Returns the backpack radio (if there is one).
 
   Arguments:
     0: Unit <OBJECT>

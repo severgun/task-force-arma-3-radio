@@ -4,7 +4,7 @@
   Name: TFAR_fnc_onSpeakVolumeModifierReleased
 
   Author: ACyprus
-    Restores any transient volume changes for the player's voice in game
+    Restores any transient volume changes for the player's voice in game.
 
   Arguments:
     None

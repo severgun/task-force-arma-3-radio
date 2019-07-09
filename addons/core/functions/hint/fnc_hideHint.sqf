@@ -4,7 +4,7 @@
   Name: TFAR_fnc_hideHint
 
   Author: Garth de Wet (L-H)
-    Removes the hint from the bottom right
+    Removes the hint from the bottom right.
 
   Arguments:
     None

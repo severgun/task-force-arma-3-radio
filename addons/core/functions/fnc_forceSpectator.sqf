@@ -4,12 +4,12 @@
   Name: TFAR_fnc_forceSpectator
 
   Author: NKey
-    If second parameter is true player will moved to spectator mode
+    If second parameter is true, player will be moved to spectator mode.
     If false - normal behaviour will be restored.
 
   Arguments:
-    0: player <OBJECT>
-    1: force <BOOL>
+    0: Player <OBJECT>
+    1: Force <BOOL>
 
   Return Value:
     None

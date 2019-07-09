@@ -7,8 +7,8 @@
     Displays a hint at the bottom right of the screen.
 
   Arguments:
-    0: structured text to display <TEXT>
-    1:  Time to display the hint (-1 for infinite) <SCALAR>
+    0: Structured text to display <TEXT>
+    1: Time to display the hint (-1 for infinite) <SCALAR>
 
   Return Value:
     None

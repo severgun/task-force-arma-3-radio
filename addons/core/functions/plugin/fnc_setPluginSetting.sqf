@@ -4,11 +4,11 @@
   Name: TFAR_fnc_setPluginSetting
 
   Author: Dedmen
-    Sets a teamspeak plugin config variable
+    Sets a teamspeak plugin config variable.
 
   Arguments:
-    0: setting name <STRING>
-    1: value <STRING|BOOL|SCALAR>
+    0: Setting name <STRING>
+    1: Value <STRING|BOOL|SCALAR>
 
   Return Value:
     None

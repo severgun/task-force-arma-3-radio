@@ -4,13 +4,13 @@
   Name: TFAR_fnc_activeSwRadio
 
   Author: NKey
-    returns the active SR radio
+    Returns the active SR radio.
 
   Arguments:
     None
 
   Return Value:
-    active SR radio <STRING>
+    Active SR radio <STRING>
 
   Example:
     call TFAR_fnc_activeSwRadio;

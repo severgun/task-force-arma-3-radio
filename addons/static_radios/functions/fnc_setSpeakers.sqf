@@ -4,11 +4,11 @@
   Name: TFAR_static_radios_fnc_setSpeakers
 
   Author: Dedmen
-    takes radio classnames and returns instanciated classnames (with _ID appended)
+    Takes radio classnames and returns instanciated classnames. (with _ID appended)
 
   Arguments:
-    0: the weaponholder containing the radio <OBJECT>
-    1: speaker enabled <BOOL>
+    0: The weaponholder containing the radio <OBJECT>
+    1: Speaker enabled <BOOL>
 
   Return Value:
     None

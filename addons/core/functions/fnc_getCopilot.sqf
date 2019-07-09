@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getCopilot
 
   Author: Grundy
-    Returns the unit in the passed vehicle's co-pilot seat
+    Returns the unit in the passed vehicle's co-pilot seat.
 
   Arguments:
     0: Vehicle <OBJECT>

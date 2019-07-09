@@ -4,10 +4,10 @@
   Name: TFAR_fnc_getSwVolume
 
   Author: NKey
-    Gets the volume of the passed radio
+    Gets the volume of the passed radio.
 
   Arguments:
-    Radio classname <STRING>
+    0: Radio classname <STRING>
 
   Return Value:
     Volume : range (0,10) <NUMBER>

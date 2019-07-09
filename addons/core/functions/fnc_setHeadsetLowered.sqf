@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setHeadsetLowered
 
   Author: Dedmen
-    Sets if the Headset is currently lowered
+    Sets if the Headset is currently lowered.
 
   Arguments:
     0: Headset lowered <BOOL>

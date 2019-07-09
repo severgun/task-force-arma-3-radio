@@ -4,13 +4,13 @@
   Name: TFAR_fnc_getNearPlayers
 
   Author: NKey, Garth de Wet (L-H), Dedmen
-    returns near players
+    Returns near players.
 
   Arguments:
     None
 
   Return Value:
-    near players (Contains duplicates) <ARRAY>
+    Near players (Contains duplicates) <ARRAY>
 
   Example:
     call TFAR_fnc_getNearPlayers;

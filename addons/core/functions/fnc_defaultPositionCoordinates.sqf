@@ -7,12 +7,12 @@
     Prepares the position coordinates of the passed unit.
 
   Arguments:
-    0: unit <OBJECT>
+    0: Unit <OBJECT>
     1: Is near player <BOOL>
 
   Return Value:
-    0: Position ASL. <ARRAY>
-    1: View Direction. <ARRAY>
+    0: Position ASL <ARRAY>
+    1: View Direction <ARRAY>
 
   Example:
     [player, false] call TFAR_fnc_defaultPositionCoordinates;

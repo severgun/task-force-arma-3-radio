@@ -7,7 +7,7 @@
     Sets the frequency for the active channel on the active LR radio.
 
   Arguments:
-    Frequency <STRING>
+    0: Frequency <STRING>
 
   Return Value:
     None

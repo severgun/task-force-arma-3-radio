@@ -10,7 +10,7 @@
     None
 
   Return Value:
-    name of the channel <STRING>
+    Name of the channel <STRING>
 
   Example:
     call TFAR_fnc_getTeamSpeakChannelName;

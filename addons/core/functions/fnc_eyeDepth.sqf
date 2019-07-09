@@ -4,10 +4,10 @@
   Name: TFAR_fnc_eyeDepth
 
   Author: Garth de Wet (L-H)
-    returns the eyepos of a unit
+    Returns the eyepos of a unit.
 
   Arguments:
-    unit <OBJECT>
+    0: Unit <OBJECT>
 
   Return Value:
     Position ASLW <ARRAY>

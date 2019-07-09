@@ -4,16 +4,16 @@
   Name: TFAR_fnc_initKeybinds
 
   Author: NKey, Garth de Wet (L-H), Dedmen
-  initializes the CBA-Keybinds
+    Initializes the CBA-Keybinds.
 
   Arguments:
-  None
+    None
 
   Return Value:
-  None
+    None
 
   Example:
-  call TFAR_fnc_initKeybinds;
+    call TFAR_fnc_initKeybinds;
 
   Public: No
 */

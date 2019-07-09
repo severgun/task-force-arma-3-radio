@@ -7,11 +7,11 @@
     Used to provide an array of ace actions to be used as children actions in the interact menu.
 
   Arguments:
-    0: unit <OBJECT>
-    1: only LR <BOOL>
+    0: Unit <OBJECT>
+    1: Only LR <BOOL>
 
   Return Value:
-    children ACE actions <ARRAY>
+    Children ACE actions <ARRAY>
 
   Example:
     _children = [_player] call TFAR_core_fnc_getOwnRadiosChildren;

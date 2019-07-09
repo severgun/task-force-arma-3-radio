@@ -10,7 +10,7 @@
     0: Radio classname <STRING>
 
   Return Value:
-    is a radio <BOOL>
+    Is a radio <BOOL>
 
   Example:
     _isRadio = "NotARadioClass" call TFAR_fnc_isRadio;

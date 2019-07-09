@@ -4,18 +4,18 @@
   Name: TFAR_fnc_parseFrequenciesInput
 
   Author: Dorbedo
-    parses a frequencies array and fills it up with default values
-    does a valuecheck and ignores wrong values
+    Parses a frequencies array and fills it up with default values.
+    Does a valuecheck and ignores wrong values.
 
   Arguments:
-    0: argument name <STRING>
-    1: min amount of channels <NUMBER>
-    2: min freq <NUMBER>
-    3: max freq <NUMBER>
-    4: round power <NUMBER>
+    0: Argument name <STRING>
+    1: Min amount of channels <NUMBER>
+    2: Min freq <NUMBER>
+    3: Max freq <NUMBER>
+    4: Round power <NUMBER>
 
   Return Value:
-    parsed frequencies <ARRAY>
+    Parsed frequencies <ARRAY>
 
   Example:
     ["[50.16549, 51122, 52, 53, 4, 5, 56, 57, 58, 59, ""asd"", asd, ""88""]", 8, 87, 40] call TFAR_fnc_parseFrequenciesInput;

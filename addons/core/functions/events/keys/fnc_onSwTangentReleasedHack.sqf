@@ -4,7 +4,7 @@
   Name: TFAR_fnc_onSwTangentReleasedHack
 
   Author: Nkey
-    Hack to also trigger SR transmit while sprinting or holding down other modifiers
+    Hack to also trigger SR transmit while sprinting or holding down other modifiers.
 
   Arguments:
     None

@@ -4,7 +4,7 @@
   Name: TFAR_fnc_onCuratorInterface
 
   Author: Dedmen
-    Eventhandler that fires when opening the Curator Interface
+    Eventhandler that fires when opening the Curator Interface.
 
   Arguments:
     None

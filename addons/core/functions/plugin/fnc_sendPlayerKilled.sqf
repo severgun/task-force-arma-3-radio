@@ -7,7 +7,7 @@
     Notifies the plugin that a unit has been killed.
 
   Arguments:
-    killed unit <OBJECT>
+    0: Killed unit <OBJECT>
 
   Return Value:
     None

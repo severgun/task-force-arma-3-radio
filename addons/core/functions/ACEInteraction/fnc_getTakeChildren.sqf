@@ -7,11 +7,11 @@
     Used to provide an array of ace actions to be used as children actions in the interact menu.
 
   Arguments:
-    0: the unit who loses the radio <OBJECT>
-    1: the radio <ARRAY/STRING>
+    0: The unit who loses the radio <OBJECT>
+    1: The radio <ARRAY/STRING>
 
   Return Value:
-    children ACE actions. <ARRAY>
+    Children ACE actions. <ARRAY>
 
   Example:
     _children = [_target, _player] call TFAR_core_fnc_getTakeChildren;

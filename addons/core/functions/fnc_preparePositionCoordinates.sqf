@@ -7,12 +7,12 @@
     Prepares the position coordinates of the passed unit.
 
   Arguments:
-    0: unit <OBJECT>
-    1: Is near player <BOOL>
+    0: Unit <OBJECT>
+    1: Includes near player <BOOL>
     2: Unit name <STRING>
 
   Return Value:
-    prepared Data <STRING>
+    Prepared Data <STRING>
 
   Example:
     [parameter] call TFAR_fnc_preparePositionCoordinates;

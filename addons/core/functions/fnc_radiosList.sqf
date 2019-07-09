@@ -4,13 +4,13 @@
   Name: TFAR_fnc_radiosList
 
   Author: NKey
-    List of all the player's SW radios.
+    List of all the player's SR radios.
 
   Arguments:
-    unit <OBJECT>
+    0: Unit <OBJECT>
 
   Return Value:
-    List of all the player's SW radios. <ARRAY>
+    List of all the player's SR radios <ARRAY>
 
   Example:
     _radios = TFAR_currentUnit call TFAR_fnc_radiosList;

@@ -10,7 +10,7 @@
     0: Radio classname <STRING>
 
   Return Value:
-    is Prototype radio <BOOL>
+    Is prototype radio <BOOL>
 
   Example:
     if ("TFAR_anprc148jem" call TFAR_fnc_isPrototypeRadio) then {

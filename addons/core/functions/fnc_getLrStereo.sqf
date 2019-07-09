@@ -4,7 +4,7 @@
   Name: TFAR_fnc_getLrStereo
 
   Author: NKey
-    Gets the stereo setting of the passed radio
+    Gets the stereo setting of the passed radio.
 
   Arguments:
     0: Radio object <OBJECT>

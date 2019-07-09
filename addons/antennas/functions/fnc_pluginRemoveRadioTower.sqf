@@ -4,11 +4,11 @@
   Name: TFAR_antennas_fnc_pluginRemoveRadioTower
 
   Author: Dedmen
-    Tells Teamspeak that a Tower disappeared
+    Tells Teamspeak that a Tower disappeared.
     Performancewise it's best to collect towers and pass multiple in one call.
 
   Arguments:
-    0: the Tower <OBJECT>
+    0: The Tower <OBJECT>
 
   Return Value:
     None

@@ -4,10 +4,10 @@
   Name: TFAR_fnc_setVoiceVolume
 
   Author: NKey
-    Sets the volume for the player's voice in game
+    Sets the volume for the player's voice in game.
 
   Arguments:
-    Volume - Range (0,TF_max_voice_volume) <NUMBER>
+    0: Volume - Range (0,TF_max_voice_volume) <NUMBER>
 
   Return Value:
     None

@@ -4,10 +4,10 @@
   Name: TFAR_fnc_getSwChannel
 
   Author: NKey
-    Gets the channel for the passed radio
+    Gets the channel for the passed radio.
 
   Arguments:
-    Radio classname <STRING>
+    0: Radio classname <STRING>
 
   Return Value:
     Channel <NUMBER>

@@ -8,11 +8,11 @@
     and then creates an array of all the classnames of the prototype radios and returns it.
 
   Arguments:
-    Regardless of whether the radio is prototype or not, return it as a radio to be replaced. <BOOL>
+    0: Regardless of whether the radio is prototype or not, return it as a radio to be replaced <BOOL>
 
   Return Value:
-    0: List of all radio classes to be replaced. <ARRAY>
-    1: List of settings to be copied. <ARRAY>
+    0: List of all radio classes to be replaced <ARRAY>
+    1: List of settings to be copied <ARRAY>
     2: Should the first Item be linked to Radio slot? <BOOL>
 
   Example:

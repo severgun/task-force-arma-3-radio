@@ -4,11 +4,11 @@
   Name: TFAR_fnc_showRadioInfo
 
   Author: Garth de Wet (L-H)
-    shows the radio info
+    Shows the radio info.
 
   Arguments:
     0: Radio <OBJECT|STRING>
-    1: is LR radio <BOOL>
+    1: Is LR radio <BOOL>
 
   Return Value:
     None
@@ -16,7 +16,7 @@
   Example:
     // LR radio
     [(call TFAR_fnc_activeLrRadio), true] call TFAR_fnc_showRadioInfo;
-    // SW radio
+    // SR radio
     [(call TFAR_fnc_activeSwRadio), false] call TFAR_fnc_showRadioInfo;
 
   Public: Yes

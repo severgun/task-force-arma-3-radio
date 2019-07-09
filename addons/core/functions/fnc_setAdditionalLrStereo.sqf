@@ -4,7 +4,7 @@
   Name: TFAR_fnc_setAdditionalLrStereo
 
   Author: NKey
-    Sets the stereo setting for additional channel the passed radio
+    Sets the stereo setting for additional channel the passed radio.
 
   Arguments:
     0: LR Radio <ARRAY>

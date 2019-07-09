@@ -4,7 +4,7 @@
   Name: TFAR_fnc_onSpeakVolumeModifierPressed
 
   Author: ACyprus
-    Transiently changes the volume for the player's voice in game to either Yelling or Whisper
+    Transiently changes the volume for the player's voice in game to either Yelling or Whisper.
 
   Arguments:
     0: Volume level : VALUES ("yelling" or "whispering") <STRING>

@@ -4,13 +4,13 @@
   Name: TFAR_fnc_isVehicleIsolated
 
   Author: NKey
-    checks wether the vehicle is isolated
+    Checks wether the vehicle is isolated.
 
   Arguments:
-    0: the vehicle <OBJECT>
+    0: The vehicle <OBJECT>
 
   Return Value:
-    is isolated <BOOL>
+    Is isolated <BOOL>
 
   Example:
     _isolated = (vehicle player) call TFAR_fnc_isVehicleIsolated;
