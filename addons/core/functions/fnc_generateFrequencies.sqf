@@ -19,7 +19,7 @@
     // LR
     _frequencies = [TFAR_MAX_LR_CHANNELS,TFAR_MAX_ASIP_FREQ,TFAR_MIN_ASIP_FREQ,TFAR_FREQ_ROUND_POWER] call TFAR_fnc_generateFrequencies;
     // SW
-    _sw_frequencies = [TFAR_MAX_CHANNELS,TFAR_MAX_SW_FREQ,TFAR_MIN_SW_FREQ,TFAR_FREQ_ROUND_POWER] call TFAR_fnc_generateFrequencies;
+    _sw_frequencies = [TFAR_MAX_CHANNELS,TFAR_MAX_SR_FREQ,TFAR_MIN_SR_FREQ,TFAR_FREQ_ROUND_POWER] call TFAR_fnc_generateFrequencies;
 
   Public: Yes
 */

@@ -21,7 +21,7 @@ class CfgVehicles {
                 tooltip = ECSTRING(settings,DefaultRadioFrequencies_SR_desc);
                 property = "TFAR_freq_sr";
                 control = "EditArray";
-                expression = QUOTE(if !(_value isEqualTo []) then {_value=[ARR_5(str _value,TFAR_MAX_CHANNELS,TFAR_MAX_SW_FREQ,TFAR_MIN_SW_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);_this setVariable [ARR_3('%s',_value,true)];});
+                expression = QUOTE(if !(_value isEqualTo []) then {_value=[ARR_5(str _value,TFAR_MAX_CHANNELS,TFAR_MAX_SR_FREQ,TFAR_MIN_SR_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);_this setVariable [ARR_3('%s',_value,true)];});
                 defaultValue = "[]";
                 unique = 0;
                 condition = "1";

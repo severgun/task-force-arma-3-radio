@@ -26,8 +26,8 @@
 params [
     ["_valueString", "", [""]],
     ["_minChannels", TFAR_MAX_CHANNELS, [TFAR_MAX_CHANNELS]],
-    ["_maxFreq", TFAR_MAX_SW_FREQ, [TFAR_MAX_SW_FREQ]],
-    ["_minFreq", TFAR_MIN_SW_FREQ, [TFAR_MIN_SW_FREQ]],
+    ["_maxFreq", TFAR_MAX_SR_FREQ, [TFAR_MAX_SR_FREQ]],
+    ["_minFreq", TFAR_MIN_SR_FREQ, [TFAR_MIN_SR_FREQ]],
     ["_roundPower", TFAR_FREQ_ROUND_POWER, [TFAR_FREQ_ROUND_POWER]]
 ];
 

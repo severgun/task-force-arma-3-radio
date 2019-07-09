@@ -40,7 +40,7 @@ if (_this isEqualType true) then {
     };
 };
 if (!_set) then {
-    _sw_frequencies = [TFAR_MAX_CHANNELS,TFAR_MAX_SW_FREQ,TFAR_MIN_SW_FREQ,TFAR_FREQ_ROUND_POWER] call TFAR_fnc_generateFrequencies;
+    _sw_frequencies = [TFAR_MAX_CHANNELS,TFAR_MAX_SR_FREQ,TFAR_MIN_SR_FREQ,TFAR_FREQ_ROUND_POWER] call TFAR_fnc_generateFrequencies;
 };
 _sw_settings set [2, _sw_frequencies];
 

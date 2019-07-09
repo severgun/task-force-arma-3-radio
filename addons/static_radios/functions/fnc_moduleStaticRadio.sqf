@@ -102,7 +102,7 @@ _VolumeControl sliderSetRange [1, 50];
 
 if !(_settings isEqualTo []) then {
     _VolumeControl sliderSetPosition (_settings param [VOLUME_OFFSET, TFAR_default_radioVolume]);
-    _SpeakerControl cbSetChecked (_settings param [TFAR_SW_SPEAKER_OFFSET, false]);
+    _SpeakerControl cbSetChecked (_settings param [TFAR_SR_SPEAKER_OFFSET, false]);
 } else {
     _VolumeControl sliderSetPosition TFAR_default_radioVolume;
 };

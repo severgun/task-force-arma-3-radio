@@ -19,4 +19,4 @@
 */
 params[["_radio", "", [""]]];
 
-(_radio call TFAR_fnc_getSwSettings) param [TFAR_SW_SPEAKER_OFFSET, false]
+(_radio call TFAR_fnc_getSwSettings) param [TFAR_SR_SPEAKER_OFFSET, false]

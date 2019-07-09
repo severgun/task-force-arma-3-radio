@@ -31,6 +31,6 @@ if ((TF_sw_dialog_radio call TFAR_fnc_getAdditionalSwChannel) == (TF_sw_dialog_r
     _formatText = "A%1";
 };
 
-ctrlSetText [SW_EDIT, TF_sw_dialog_radio call TFAR_fnc_getSwFrequency];
+ctrlSetText [SR_EDIT, TF_sw_dialog_radio call TFAR_fnc_getSwFrequency];
 private _channelText =  format[_formatText, (TF_sw_dialog_radio call TFAR_fnc_getSwChannel) + 1];
-ctrlSetText [SW_CHANNEL, _channelText];
+ctrlSetText [SR_CHANNEL, _channelText];

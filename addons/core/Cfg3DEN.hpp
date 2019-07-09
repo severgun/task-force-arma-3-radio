@@ -20,10 +20,10 @@ class display3DEN {
 
 #define SWCode  if (_value isEqualTo '' || _value isEqualTo []) exitWith {};\
                 if (_value isEqualType '') then {\
-                    _value = [ARR_5(_value,TFAR_MAX_CHANNELS,TFAR_MAX_SW_FREQ,TFAR_MIN_SW_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);\
+                    _value = [ARR_5(_value,TFAR_MAX_CHANNELS,TFAR_MAX_SR_FREQ,TFAR_MIN_SR_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);\
                     _this setVariable [ARR_3('%s',_value,true)];\
                 } else {\
-                    _value = [ARR_5(str _value,TFAR_MAX_CHANNELS,TFAR_MAX_SW_FREQ,TFAR_MIN_SW_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);\
+                    _value = [ARR_5(str _value,TFAR_MAX_CHANNELS,TFAR_MAX_SR_FREQ,TFAR_MIN_SR_FREQ,TFAR_FREQ_ROUND_POWER)] call DFUNC(parseFrequenciesInput);\
                     _this setVariable [ARR_3('%s',_value,true)];\
                 }
 #define LRCode  if (_value isEqualTo '' || _value isEqualTo []) exitWith {};\

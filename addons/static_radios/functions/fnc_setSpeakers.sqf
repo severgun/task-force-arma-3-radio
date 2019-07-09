@@ -28,7 +28,7 @@ if (_radio_id call TFAR_fnc_isLRRadio) then {
     _radio_id = [_radio_id, "radio_settings"];
     private _settings = _radio_id call TFAR_fnc_getLrSettings;
 
-    _settings set [TFAR_SW_SPEAKER_OFFSET, _enabled];
+    _settings set [TFAR_SR_SPEAKER_OFFSET, _enabled];
 
     (_radio_id select 0) setVariable ["TFAR_LRSpeakersEnabled", _enabled];
 
@@ -36,7 +36,7 @@ if (_radio_id call TFAR_fnc_isLRRadio) then {
 } else {
     private _settings = _radio_id call TFAR_fnc_getSwSettings;
 
-    _settings set [TFAR_SW_SPEAKER_OFFSET, _enabled];
+    _settings set [TFAR_SR_SPEAKER_OFFSET, _enabled];
 
     [_radio_id, _settings] call TFAR_fnc_setSwSettings;
 }
