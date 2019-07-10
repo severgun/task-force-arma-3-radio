@@ -34,7 +34,10 @@ if (!isNil "_cachedEntry") exitWith {_cachedEntry};
 private _cfgApiProperty = (configFile >> "CfgVehicles" >> _item >> _property + "_api");
 private _cfgProperty = (configFile >> "CfgVehicles" >> _item >> _property);
 
-//#TODO if both are configNull, we can immediately return default
+if (_cfgProperty isEqualTo configNull && {_cfgApiProperty isEqualTo configNull}) exitWith {
+    GVAR(VehicleConfigCacheNamespace) setVariable [_cacheName,_default];
+    _default
+};
 
 if (isNumber _cfgApiProperty) exitWith {
     getNumber _cfgApiProperty

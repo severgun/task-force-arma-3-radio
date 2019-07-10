@@ -12,6 +12,11 @@
                 <English>TFAR</English>
                 <Japanese>TFAR</Japanese>
             </Key>
+            <Key ID="STR_TFAR_CORE_EncryptionCode">
+                <Original>Encryption Code</Original>
+                <English>Encryption Code</English>
+                <Russian>Код шифрования</Russian>
+            </Key>
             <Key ID="STR_TFAR_CORE_3DEN_Menu">
                 <Original>TFAR Preferences</Original>
                 <English>TFAR Preferences</English>
