@@ -1,10 +1,10 @@
 #include "script_component.hpp"
 
 /*
-  Name: TFAR_fnc_ShowRadioVolume
+  Name: TFAR_fnc_showRadioVolume
 
   Author: Garth de Wet (L-H)
-    shows the radio volume
+    Shows the radio volume
 
   Arguments:
     0: Radio <OBJECT|STRING>

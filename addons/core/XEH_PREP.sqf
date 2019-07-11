@@ -58,6 +58,7 @@ PREP_SUB(hint,showHint);
 PREP_SUB(hint,showRadioInfo);
 PREP_SUB(hint,showRadioSpeakers);
 PREP_SUB(hint,showRadioVolume);
+PREP_SUB(hint,showVoiceVolume);
 PREP_SUB(hint,unableToUseHint);
 
 // /plugin

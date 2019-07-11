@@ -28,5 +28,5 @@ _player setVariable ["TFAR_forceSpectator", _value, true];
 _player setVariable ["TFAR_spectatorName", profileName, true];
 
 if (TFAR_ShowVolumeHUD && _value) then { //Don't have a voice in spectator Mode so hide the HUD
-    (QGVAR(HUDVolumeIndicatorRsc) call BIS_fnc_rscLayer) cutText ["", "PLAIN"];
+    [false] call TFAR_fnc_showVoiceVolume;
 };

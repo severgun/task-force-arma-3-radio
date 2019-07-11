@@ -52,7 +52,7 @@ if (TFAR_oldVolumeHint) then {
     };
 } else {
     if (!TFAR_ShowVolumeHUD) then {
-        (QGVAR(HUDVolumeIndicatorRsc) call BIS_fnc_rscLayer) cutRsc [QGVAR(HUDVolumeIndicatorRsc), "PLAIN", 0, true]; //Hidden in the Released handler
+        [true] call TFAR_fnc_showVoiceVolume; //Hidden in the Released handler
     };
     if (TFAR_volumeModifier_forceSpeech) then {
         ["",format["TANGENT	PRESSED	%1	%2	%3","directSpeechFreq", 0, "directSpeech"],0] call TFAR_fnc_processTangent;

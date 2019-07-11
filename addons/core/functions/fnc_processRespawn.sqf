@@ -75,8 +75,8 @@ _corpse setVariable ["TFAR_forceSpectator", false, true];
         }] call CBA_fnc_waitUntilAndExecute;
     };
     [TFAR_currentUnit, false] call TFAR_fnc_forceSpectator;
-    if (TFAR_ShowVolumeHUD) then { //#TODO should really move this into a macro
-        (QGVAR(HUDVolumeIndicatorRsc) call BIS_fnc_rscLayer) cutRsc [QGVAR(HUDVolumeIndicatorRsc), "PLAIN", 0, true];
+    if (TFAR_ShowVolumeHUD) then {
+        [true] call TFAR_fnc_showVoiceVolume;
     };
     call TFAR_fnc_updateSpeakVolumeUI;
 }] call CBA_fnc_waitUntilAndExecute;

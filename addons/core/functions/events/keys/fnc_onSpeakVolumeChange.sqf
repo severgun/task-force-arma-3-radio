@@ -23,11 +23,11 @@ if (alive TFAR_currentUnit) then {
         [parseText (_hintText), 5] call TFAR_fnc_showHint;
     } else {
         if (!TFAR_ShowVolumeHUD) then {
-            (QGVAR(HUDVolumeIndicatorRsc) call BIS_fnc_rscLayer) cutRsc [QGVAR(HUDVolumeIndicatorRsc), "PLAIN", 0, true];
+            [true] call TFAR_fnc_showVoiceVolume;
             TFAR_volumeIndicatorFlashIndex = TFAR_volumeIndicatorFlashIndex+1;
             [{
                 if (TFAR_volumeIndicatorFlashIndex == _this select 0) then {
-                    (QGVAR(HUDVolumeIndicatorRsc) call BIS_fnc_rscLayer) cutText ["", "PLAIN"];
+                    [false] call TFAR_fnc_showVoiceVolume;
                 };
             }, [TFAR_volumeIndicatorFlashIndex], 5] call CBA_fnc_waitAndExecute;
         };
