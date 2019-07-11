@@ -95,14 +95,14 @@ if (hasInterface) then {//Clientside Variables
 
     tf_lastError = false;
 
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveSWRadio_lastCache",-1];
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveDDRadio_lastCache",-1];
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveSWRadio_lastCache,-1);
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveDDRadio_lastCache,-1);
 
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_radiosList_lastCache",-1];
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_sendSpeakerRadioslastExec",-1];
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_requestRadios_lastExec",-1];
-    GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_sendFrequencyInfo_lastExec",-1];
-    GVAR(VehicleConfigCacheNamespace) setVariable ["lastRadioSettingUpdate",-1];
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_radiosList_lastCache,-1);
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_sendSpeakerRadioslastExec,-1);
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_requestRadios_lastExec,-1);
+    VEHCONFIGCACHE_SETVAR(TFAR_fnc_sendFrequencyInfo_lastExec,-1);
+    VEHCONFIGCACHE_SETVAR(lastRadioSettingUpdate,-1);
 
     ISNILS(TFAR_takingRadio,2);
 

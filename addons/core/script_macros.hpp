@@ -104,8 +104,8 @@
     }
 
 
-
-
+#define VEHCONFIGCACHE_GETVAR(varName) GVAR(VehicleConfigCacheNamespace) getVariable QUOTE(varName)
+#define VEHCONFIGCACHE_SETVAR(varName,value) GVAR(VehicleConfigCacheNamespace) SETVAR_SYS(varName,value)
 
 
 #ifdef DEBUG_PROFCONTEXT

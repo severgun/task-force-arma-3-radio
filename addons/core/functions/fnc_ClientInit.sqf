@@ -58,7 +58,7 @@ TF_respawnedAt = time;//first spawn so.. respawned now
                 {(time - TF_respawnedAt > 5)},
                 {
                     GVAR(EHID_radioReplaceProcess) = [PROFCONTEXT_NORTN(TFAR_fnc_radioReplaceProcess),2/*2 seconds*/] call CBA_fnc_addPerFrameHandler;
-                    
+
                     //This is here so that it cannot possibly fire before plugin settings are initialized
                     [PROFCONTEXT_NORTN(TFAR_fnc_sessionTracker), 60 * 10/*10 minutes*/] call CBA_fnc_addPerFrameHandler;
                 }
@@ -168,7 +168,7 @@ if (player call TFAR_fnc_isForcedCurator) then {
     TFAR_currentUnit call TFAR_fnc_releaseAllTangents;//Shouldn't be needed. But it doesn't hurt
 
     TFAR_lastLoadoutChange = diag_tickTime; //Switching unit also switches loadout
-    GVAR(VehicleConfigCacheNamespace) setVariable ["lastRadioSettingUpdate",diag_tickTime]; //And changes Radios
+    VEHCONFIGCACHE_SETVAR(lastRadioSettingUpdate,diag_tickTime); //And changes Radios
 
     if !(TFAR_currentUnit getVariable ["TFAR_HandlersSet",false]) then {
         TFAR_currentUnit addEventHandler ["Take", {
@@ -200,8 +200,8 @@ if (player call TFAR_fnc_isForcedCurator) then {
 ["loadout", {
     //current units loadout changed.. Should invalidate any caches about players loadout.
     TFAR_lastLoadoutChange = diag_tickTime;
-    GVAR(VehicleConfigCacheNamespace) setVariable ["lastRadioSettingUpdate",diag_tickTime];//Also updates Radio settings for safety
-    
+    VEHCONFIGCACHE_SETVAR(lastRadioSettingUpdate,diag_tickTime); //Also updates Radio settings for safety
+
     if !((missionNamespace getVariable ["TFAR_core_assignedItemsCache", []]) isEqualTo (assignedItems TFAR_currentUnit)) then {
         TFAR_core_cacheNonRadioItems = []; //Reset cache, used in radiosToRequestCount
     };

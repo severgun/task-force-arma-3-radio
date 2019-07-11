@@ -27,4 +27,4 @@ _radio params ["_radio_object", "_radio_qualifier"];
 
 _radio_object setVariable [_radio_qualifier, + _value, true];
 
-GVAR(VehicleConfigCacheNamespace) setVariable ["lastRadioSettingUpdate", diag_tickTime];
+VEHCONFIGCACHE_SETVAR(lastRadioSettingUpdate,diag_tickTime);

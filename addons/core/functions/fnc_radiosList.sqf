@@ -32,12 +32,12 @@ private _fetchItems = {
 if (_this != TFAR_currentUnit) exitWith {_this call _fetchItems};
 
 //Caching
-private _lastCache = GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_radiosList_lastCache";
-if (_lastCache > TFAR_lastLoadoutChange) exitWith {+(GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_radiosList_CachedRadios")};
+private _lastCache = VEHCONFIGCACHE_GETVAR(TFAR_fnc_radiosList_lastCache);
+if (_lastCache > TFAR_lastLoadoutChange) exitWith {+(VEHCONFIGCACHE_GETVAR(TFAR_fnc_radiosList_CachedRadios))};
 
 private _result = _this call _fetchItems;
 
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_radiosList_lastCache",diag_tickTime-0.1];//#TODO make macros from these
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_radiosList_CachedRadios",_result];
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_radiosList_lastCache,diag_tickTime-0.1);
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_radiosList_CachedRadios,_result);
 
 _result

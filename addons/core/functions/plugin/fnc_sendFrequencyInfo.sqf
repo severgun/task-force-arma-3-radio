@@ -20,15 +20,15 @@
 
 if (getClientStateNumber != 10) exitWith {"BI HAS CRAPPY WEIRD BUGS U KNOW! (Keeps PFH from firing after server disconnect)"};
 
-private _timeSinceLastUpdate = diag_tickTime - (GVAR(VehicleConfigCacheNamespace) getVariable "lastRadioSettingUpdate");
-private _lastExec = diag_tickTime - (GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_sendFrequencyInfo_lastExec");
+private _timeSinceLastUpdate = diag_tickTime - (VEHCONFIGCACHE_GETVAR(lastRadioSettingUpdate));
+private _lastExec = diag_tickTime - (VEHCONFIGCACHE_GETVAR(TFAR_fnc_sendFrequencyInfo_lastExec));
 
 //Only call every 2 seconds if we had no update to our Radio settings for longer than 5 seconds.
 if (_timeSinceLastUpdate > 5 && _lastExec < 2) exitWith {};
 
 PROFCONTEXT_LOGTRAP(FreqInfoTrap,TFAR_fnc_sendFrequencyInfo);
 
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_sendFrequencyInfo_lastExec",diag_tickTime];
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_sendFrequencyInfo_lastExec,diag_tickTime);
 
 // send frequencies
 private _freq = ["No_SW_Radio"];

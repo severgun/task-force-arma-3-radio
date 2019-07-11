@@ -23,11 +23,11 @@ if (isDedicated) exitWith {
     ERROR("This function should never be called on a dedicated Server");
 };
 
-private _lastExec = GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_requestRadios_lastExec";
+private _lastExec = VEHCONFIGCACHE_GETVAR(TFAR_fnc_requestRadios_lastExec);
 //If the loadout didn't change since last execute we don't need to check anything
 //Also if player is still in Arsenal don't replace anything
 if (_lastExec > TFAR_lastLoadoutChange  || GVAR(currentlyInArsenal)) exitWith {};
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_requestRadios_lastExec", diag_tickTime-0.1];
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_requestRadios_lastExec,diag_tickTime-0.1);
 
 (_this call TFAR_fnc_radioToRequestCount) params ["_radiosToRequest", "_settingsToCopy", "_linkFirstItem"];
 

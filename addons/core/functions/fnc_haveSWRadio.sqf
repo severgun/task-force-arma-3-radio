@@ -19,8 +19,8 @@
 */
 
 //Caching
-private _lastCache = GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_haveSWRadio_lastCache";
-if (_lastCache > TFAR_lastLoadoutChange) exitWith {GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_haveSWRadio_CachedResult"};
+private _lastCache = VEHCONFIGCACHE_GETVAR(TFAR_fnc_haveSWRadio_lastCache);
+if (_lastCache > TFAR_lastLoadoutChange) exitWith {VEHCONFIGCACHE_GETVAR(TFAR_fnc_haveSWRadio_CachedResult)};
 
 private _result = false;
 
@@ -31,7 +31,7 @@ if (isNil "TFAR_currentUnit" || {isNull (TFAR_currentUnit)}) exitWith {false};
     true;
 } count (assignedItems TFAR_currentUnit);
 
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveSWRadio_lastCache",diag_tickTime-0.1];
-GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveSWRadio_CachedResult",_result];
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveSWRadio_lastCache,diag_tickTime-0.1);
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveSWRadio_CachedResult,_result);
 
 _result

@@ -27,4 +27,4 @@ params ["_radio_id", "_value", ["_local", false, [true]]];
 TFAR_RadioSettingsNamespace setVariable [_radio_id, + _value,!_local];
 TFAR_RadioSettingsNamespace setVariable [_radio_id + "_local", + _value];
 
-GVAR(VehicleConfigCacheNamespace) setVariable ["lastRadioSettingUpdate",diag_tickTime];
+VEHCONFIGCACHE_SETVAR(lastRadioSettingUpdate,diag_tickTime);

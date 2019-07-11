@@ -18,10 +18,11 @@
   Public: Yes
 */
 
- private _lastCache = GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_haveDDRadio_lastCache";
- if (_lastCache > TFAR_lastLoadoutChange) exitWith {GVAR(VehicleConfigCacheNamespace) getVariable "TFAR_fnc_haveDDRadio_CachedResult"};
 
- if (isNil "TFAR_currentUnit" || {isNull (TFAR_currentUnit)}) exitWith {false};
+private _lastCache = VEHCONFIGCACHE_GETVAR(TFAR_fnc_haveDDRadio_lastCache);
+if (_lastCache > TFAR_lastLoadoutChange) exitWith {VEHCONFIGCACHE_GETVAR(TFAR_fnc_haveDDRadio_CachedResult)};
+
+if (isNil "TFAR_currentUnit" || {isNull (TFAR_currentUnit)}) exitWith {false};
 
 private _checkForRadio = {
     if !(call TFAR_fnc_haveSWRadio) exitWith {false};
@@ -35,7 +36,7 @@ private _checkForRadio = {
 
 private _result = call _checkForRadio;
 
- GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveDDRadio_lastCache",diag_tickTime-0.1];
- GVAR(VehicleConfigCacheNamespace) setVariable ["TFAR_fnc_haveDDRadio_CachedResult",_result];
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveDDRadio_lastCache,diag_tickTime-0.1);
+VEHCONFIGCACHE_SETVAR(TFAR_fnc_haveDDRadio_CachedResult,_result);
 
- _result
+_result
