@@ -1214,7 +1214,7 @@ Normal radyo su altı radyosuyla iletişim kuramaz (herhangi bir ses gelmez). Da
 &lt;font color=&quot;#67ED24&quot;&gt;ALT + SHIFT + A/D&lt;/font&gt; Cycle through available long range radios.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;ALT + Up/Left/Right Arrow&lt;/font&gt; Rapid switching of long range stereo mode.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Rapid switching of long range radio channels.&lt;br/&gt;
-&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	To change the direct speech volume. You can talk: Whispering, Normal or Yelling. Does not affect the signal volume in the radio transmission.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	To change the direct speech volume. You can talk: Whispering, Normal, Loud or Yelling. Does not affect the signal volume in the radio transmission.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	To open an underwater transceiver interface (you should be wearing a rebreather).&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ~&lt;/font&gt;	To talk on underwater transceiver.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Select next personal radio.&lt;br/&gt;
@@ -1238,7 +1238,7 @@ Normal radyo su altı radyosuyla iletişim kuramaz (herhangi bir ses gelmez). Da
 &lt;font color=&quot;#67ED24&quot;&gt;ALT + SHIFT + A/D&lt;/font&gt; Cycle through available long range radios.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;ALT + Up/Left/Right Arrow&lt;/font&gt; Rapid switching of long range stereo mode.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Rapid switching of long range radio channels.&lt;br/&gt;
-&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	To change the direct speech volume. You can talk: Whispering, Normal or Yelling. Does not affect the signal volume in the radio transmission.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	To change the direct speech volume. You can talk: Whispering, Normal, Loud or Yelling. Does not affect the signal volume in the radio transmission.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	To open an underwater transceiver interface (you should be wearing a rebreather).&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ~&lt;/font&gt;	To talk on underwater transceiver.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Select next personal radio.&lt;br/&gt;
@@ -1395,7 +1395,7 @@ Normal radyo su altı radyosuyla iletişim kuramaz (herhangi bir ses gelmez). Da
 &lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Быстрое переключение каналов коротковолновой рации.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Открыть интерфейс рации дальней связи (рация дальней связи должна быть одета на спину, либо вы должны быть в технике за водителя, стрелка, командира или помощника пилота). Если доступно несколько рации - вам будет предложено выбрать. Также одну из них можно установить как активную.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Быстрое переключение каналов рации дальней связи.&lt;br/&gt;
-&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Изменить громкость прямой речи. Можно говорить шепотом (Whispering), нормально (Normal) и кричать (Yelling). Не влияет на кромкость сигнала в радио передаче.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Изменить громкость прямой речи. Можно говорить шепотом (Whispering), нормально (Normal), громко(Loud) и кричать (Yelling). Не влияет на кромкость сигнала в радио передаче.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Открыть интерфейс переговорного устройства для дайверов (на вас должен быть надет ребризер).&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ~&lt;/font&gt;	Разговор по переговорному устройству для дайверов.&lt;br/&gt;
 &lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Следующая рация ближней связи.&lt;br/&gt;
@@ -1619,6 +1619,11 @@ Normal radyo su altı radyosuyla iletişim kuramaz (herhangi bir ses gelmez). Da
                 <Korean>소리지르기 설정</Korean>
                 <Chinese>嚎叫音量修改器</Chinese>
                 <Chinesesimp>嚎叫音量修改器</Chinesesimp>
+            </Key>
+            <Key ID="STR_TFAR_CORE_key_LoudModifier">
+                <Original>Loud Modifier</Original>
+                <English>Loud Modifier</English>
+                <Russian>Модификатор голоса: Громко</Russian>
             </Key>
             <Key ID="STR_TFAR_CORE_key_WhisperingModifier">
                 <Original>Whispering Modifier</Original>
@@ -2680,6 +2685,11 @@ Normal radyo su altı radyosuyla iletişim kuramaz (herhangi bir ses gelmez). Da
             <Korean>소리지르기</Korean>
             <Chinese>嚎叫</Chinese>
             <Chinesesimp>嚎叫</Chinesesimp>
+        </Key>
+        <Key ID="STR_TFAR_CORE_voice_loud">
+            <Original>loud</Original>
+            <English>loud</English>
+            <Russian>громко</Russian>
         </Key>
         <Key ID="STR_TFAR_CORE_voice_whispering">
             <Original>whispering</Original>

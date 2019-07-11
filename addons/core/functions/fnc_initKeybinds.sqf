@@ -125,6 +125,9 @@ TF_speak_volume_modifiers = [false, true, false];
 TF_speak_volume_modifier_yelling_scancode = 0;
 TF_speak_volume_modifier_yelling_modifiers = [false, false, false];
 
+TF_speak_volume_modifier_loud_scancode = 0;
+TF_speak_volume_modifier_loud_modifiers = [false, false, false];
+
 TF_speak_volume_modifier_whispering_scancode = 0;
 TF_speak_volume_modifier_whispering_modifiers = [false, false, false];
 
@@ -159,6 +162,7 @@ private _fnc_localizeLRChannel = {
 ["TFAR","ChangeSpeakingVolume", [localize LSTRING(key_ChangeSpeechVolume), localize LSTRING(key_ChangeSpeechVolume)], {call TFAR_fnc_onSpeakVolumeChangePressed}, {true}, [TF_speak_volume_scancode, TF_speak_volume_modifiers], false] call cba_fnc_addKeybind;
 
 ["TFAR", "YellingModifier", [localize LSTRING(key_YellingModifier), localize LSTRING(key_YellingModifier)], {["yelling"] call TFAR_fnc_onSpeakVolumeModifierPressed}, {call TFAR_fnc_onSpeakVolumeModifierReleased}, [TF_speak_volume_modifier_yelling_scancode, TF_speak_volume_modifier_yelling_modifiers], false] call cba_fnc_addKeybind;
+["TFAR", "LoudModifier", [localize LSTRING(key_LoudModifier), localize LSTRING(key_LoudModifier)], {["loud"] call TFAR_fnc_onSpeakVolumeModifierPressed}, {call TFAR_fnc_onSpeakVolumeModifierReleased}, [TF_speak_volume_modifier_loud_scancode, TF_speak_volume_modifier_loud_modifiers], false] call cba_fnc_addKeybind;
 ["TFAR", "WhisperingModifier", [localize LSTRING(key_WhisperingModifier), localize LSTRING(key_WhisperingModifier)], {["whispering"] call TFAR_fnc_onSpeakVolumeModifierPressed}, {call TFAR_fnc_onSpeakVolumeModifierReleased}, [TF_speak_volume_modifier_whispering_scancode, TF_speak_volume_modifier_whispering_modifiers], false] call cba_fnc_addKeybind;
 
 ["TFAR", "CycleSWRadios", [localize LSTRING(key_CycleRightSWRadios), localize LSTRING(key_CycleRightSWRadios)], {true}, {["next"] call TFAR_fnc_processSWCycleKeys}, [TF_sw_cycle_next_scancode, TF_sw_cycle_next_modifiers], false] call cba_fnc_addKeybind;

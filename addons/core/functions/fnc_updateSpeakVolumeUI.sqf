@@ -22,14 +22,19 @@ _icon = "";
 _display = uiNamespace getVariable [QGVAR(HUDVolumeIndicatorRscDisplay),displayNull];
 if (isNull _display) exitWith {};
 
-if (TF_speak_volume_level == "yelling") then {
-    _icon = QPATHTOF(ui\tfar_volume_yelling.paa);
-} else {
-    if (TF_speak_volume_level == "whispering") then {
+switch (TF_speak_volume_level) do {
+    case ("whispering"): {
         _icon = QPATHTOF(ui\tfar_volume_whisper.paa);
-    } else {
+    };
+    case ("normal"): {
         _icon = QPATHTOF(ui\tfar_volume_normal.paa);
-    }
+    };
+    case ("loud"): {
+        _icon = QPATHTOF(ui\tfar_volume_normal.paa);
+    };
+    case ("yelling"): {
+        _icon = QPATHTOF(ui\tfar_volume_yelling.paa);
+    };
 };
 
 (_display displayCtrl 1112) ctrlSetText _icon;

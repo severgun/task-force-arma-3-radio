@@ -2,20 +2,27 @@
 
 if (alive TFAR_currentUnit) then {
     private _localName = LSTRING(voice_normal);
-    if (TF_speak_volume_level == "Whispering") then {
-        TF_speak_volume_level = "normal";
-        TF_speak_volume_meters = TFAR_VOLUME_NORMAL;
-        _localName = LSTRING(voice_normal);
-    } else {
-        if (TF_speak_volume_level == "Normal") then {
+    switch (TF_speak_volume_level) do {
+        case ("whispering"): {
+            TF_speak_volume_level = "normal";
+            TF_speak_volume_meters = TFAR_VOLUME_NORMAL;
+            _localName = LSTRING(voice_normal);
+        };
+        case ("normal"): {
+            TF_speak_volume_level = "loud";
+            TF_speak_volume_meters = TFAR_VOLUME_LOUD;
+            _localName = LSTRING(voice_loud);
+        };
+        case ("loud"): {
             TF_speak_volume_level = "yelling";
             TF_speak_volume_meters = TFAR_VOLUME_YELLING;
             _localName = LSTRING(voice_yelling);
-        } else {
+        };
+        case ("yelling"): {
             TF_speak_volume_level = "whispering";
             TF_speak_volume_meters = TFAR_VOLUME_WHISPERING;
             _localName = LSTRING(voice_whispering);
-        }
+        };
     };
 
     if (TFAR_oldVolumeHint) then {
