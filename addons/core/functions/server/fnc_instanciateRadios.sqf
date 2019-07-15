@@ -11,7 +11,7 @@
     1: Unit that is requesting the Radios <OBJECT>
 
   Return Value:
-    classnames of instanciated radios <ARRAY>
+    IDs for radio instantiation <ARRAY>
 
   Example:
     [["TFAR_anprc_152"], TFAR_currentUnit] call TFAR_fnc_instanciateRadios;

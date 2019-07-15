@@ -32,10 +32,10 @@ if !(isServer) exitWith {};
             _radioBaseClass = [_radioBaseClass, "tf_parent", ""] call DFUNC(getWeaponConfigProperty);
         };
         private _id = [[_radioBaseClass], _unit] call TFAR_fnc_instanciateRadios;
-        private _newItem = format["%1_%2", _radioBaseClass, _id];
+        private _newItem = format["%1_%2", _radioBaseClass, _id select 0];
         _unit linkItem _newItem;
         _newRadios pushBack _newItem;
-    } forEach (assignedItems _unit) select {_x call TFAR_fnc_isPrototypeRadio};
+    } forEach ((assignedItems _unit) select {_x call TFAR_fnc_isPrototypeRadio});
 
     private _allItems = ((getItemCargo (uniformContainer _unit)) select 0);
     _allItems append ((getItemCargo (vestContainer _unit)) select 0);
@@ -51,12 +51,12 @@ if !(isServer) exitWith {};
         };
         private _id = [[_radioBaseClass], _unit] call TFAR_fnc_instanciateRadios;
         _unit removeItem _x;
-        private _newItem = format["%1_%2", _radioBaseClass, _id];
+        private _newItem = format["%1_%2", _radioBaseClass, _id select 0];
         if (_unit canAdd _newItem) then {
             _unit addItem _newItem;
             _newRadios pushBack _newItem;
         };
-    } forEach _allItems select {_x call TFAR_fnc_isPrototypeRadio};
+    } forEach (_allItems select {_x call TFAR_fnc_isPrototypeRadio});
 
     ["TFAR_event_OnRadiosReceived", [_unit, _newRadios], _unit] call CBA_fnc_targetEvent;
 } forEach (playableUnits);
