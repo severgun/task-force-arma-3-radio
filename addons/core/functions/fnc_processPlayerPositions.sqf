@@ -34,9 +34,11 @@ if (!TFAR_currentNearPlayersProcessed) then {
 
     {
         private _controlled = _x getVariable ["TFAR_controlledUnit", objNull];
-        private _unitName = name _x;
+        private _unitName = "";
         if (_x getVariable ["TFAR_forceSpectator", false]) then {
             _unitName = _x getVariable ["TFAR_spectatorName", _unitName];
+        } else {
+            _unitName = name _x;
         };
         if (isNull _controlled) then {
             [_x, true, _unitName] call TFAR_fnc_sendPlayerInfo;
@@ -70,9 +72,11 @@ if (!TFAR_currentFarPlayersProcessed) then {
 
     {
         private _controlled = _x getVariable ["TFAR_controlledUnit", objNull];
-        private _unitName = name _x;
+        private _unitName = "";
         if (_x getVariable ["TFAR_forceSpectator", false]) then {
             _unitName = _x getVariable ["TFAR_spectatorName", _unitName];
+        } else {
+            _unitName = name _x;
         };
         if (isNull _controlled) then {
             [_x, false, _unitName] call TFAR_fnc_sendPlayerInfo;
