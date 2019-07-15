@@ -20,7 +20,7 @@
   Public: Yes
 */
 
-private _splitResult = ("task_force_radio_pipe" callExtension format ["IS_SPEAKING	%1", name _this]) splitString "";
+private _splitResult = ("task_force_radio_pipe" callExtension format ["IS_SPEAKING	%1", _x getVariable ["TFAR_unitName", "Unknown"]]) splitString "";
 
 //_splitResult
 //1 - is Speaking

@@ -43,6 +43,7 @@ PREP_SUB(events\ui,updateLRDialogToChannel);
 PREP_SUB(events,onArsenal);
 PREP_SUB(events,onCuratorInterface);
 PREP_SUB(events,onMissionEnd);
+PREP_SUB(events,setName);
 
 // /flexiUI
 PREP_SUB(flexiUI,copyRadioSettingMenu);
